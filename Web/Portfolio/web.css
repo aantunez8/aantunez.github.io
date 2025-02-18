@@ -1,0 +1,70 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+	
+background: #a2c9fc;
+color: #f57b42;
+font-family: Optima, "sans-serif";
+	
+}
+
+
+#container {
+    
+background: #4254f5;
+width: 750px;
+margin:auto;
+max-width:800px;
+padding: 15px;
+
+}
+
+nav ul{
+    list-style: none;
+    padding-left:0px;
+}
+
+li{
+    display: inline;
+}
+
+nav a {
+    color: #f25572;
+    display: inline-block;
+    background: white;
+}
+
+nav a:hover{
+    color:#1f124d;
+}
+
+a{
+    color: #18232e;
+}
+
+figure{
+    margin: 0px;
+}
+
+
+figure img {
+    width 100%;
+}
+
+figcaption, footer{
+    font-size; 0.75em;
+}
